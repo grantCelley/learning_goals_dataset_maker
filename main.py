@@ -10,7 +10,7 @@ def create_filename():
 
 def create_file(topic, source, learning_goals):
     learning_goals = learning_goals.strip()
-    learning_goals_list = learning_goals.split('/n')
+    learning_goals_list = learning_goals.split('\n')
     contents = {'topic': topic,
     'source': source,
     'learning_goals': learning_goals_list}
